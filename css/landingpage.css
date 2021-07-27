@@ -1,0 +1,128 @@
+nav {
+    border-bottom: 2px solid black;
+  }
+  nav.nav2 {
+    border-bottom: none;
+  }
+  .navbar-brand {
+    margin-top: 20px;
+  }
+  .nav-item.up-li {
+    padding: 0 30px;
+    border-right: 2px solid black;
+  }
+  i.las {
+    color: black;
+    font-size: 24px;
+  }
+  i.la-angle-down {
+    font-size: 5px;
+  }
+  a.bg-dark {
+    width: 100px;
+    height: 50px;
+    color: white;
+  }
+  .carousel-inner h3, .carousel-inner h1,
+  .carousel-inner p, .carousel-inner button {
+    margin-top: 30px;
+  }
+  .carousel-inner button {
+    margin-bottom: 20px;
+  }
+  #top .row {
+    height: 500px;
+  }
+  .up-con {
+    width: 100%;
+    height: 100%;
+  }
+  .main {
+    width: 100%;
+    height: 500px;
+  }
+  .top-1 {
+    margin-top: 40px;
+  }
+  .second {
+    height: 90px;
+    border: 1.5px solid black;
+    text-align: center;
+    font-size: 26px;
+  }
+  .second p {
+    margin-top: 25px;
+    color: grey;
+  }
+  .second p span {
+    color: black;
+  }
+  #show, #row3 {
+    display: none;
+  }
+  .col-md-3 {
+    margin: 10px;
+  }
+  .col-md-3 a {
+    color: grey;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .col-md-3 a span {
+    color: black;
+    margin-right: 10px;
+  }
+  .col-md-3 a img {
+    width: 100%;
+    border: 1px solid black;
+  }
+  .popular {
+    display: inline-block;
+    margin-left: 60px;
+    width: 70%;
+    border: 2px solid black;
+    text-align: center;
+  }
+  .popular a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+  }
+  footer.container-fluid {
+    margin-top: 20px;
+  }
+  .form-con {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*Product page styling*/
+  .container #single {
+    margin-top: 30px;
+  }
+  .row.l-hr {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+  }
+  #quantity {
+    background: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  @media only screen and (min-width: 970px) {
+    li.nav-item.up-li {
+      border-right: 2px solid black;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    .main {
+      width: 100%;
+      height: 300px;
+    }
+    .top-1 {
+      margin-top: 135px;
+    }
+  }
